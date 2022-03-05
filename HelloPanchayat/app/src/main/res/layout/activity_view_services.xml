@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!--<ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/idIVCaptureImage"/>-->
+
+
+    <Button
+        android:id="@+id/idbd"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Birth/D Certificate"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/purple_200"
+        android:background="@drawable/btn_custom"/>
+
+    <Button
+        android:id="@+id/idft"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="File Tracking"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/purple_200"
+        android:background="@drawable/btn_custom"/>
+    <Button
+        android:id="@+id/idepay"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="E-Payment"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/purple_200"
+        android:background="@drawable/btn_custom"/>
+
+    <Button
+        android:id="@+id/idmarriage"
+        android:layout_marginBottom="10dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Marriage Certificate"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/purple_200"
+        android:background="@drawable/btn_custom"/>
+
+    <Button
+        android:id="@+id/idbuilding"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Building Permit"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/purple_200"
+        android:background="@drawable/btn_custom"/>
+
+</LinearLayout>
